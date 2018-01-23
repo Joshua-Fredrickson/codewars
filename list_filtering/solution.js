@@ -1,3 +1,5 @@
 function filter_list(l) {
-  return l.filter(l => (typeof l) === 'number')
+  return l.filter((obj) => {
+return typeof(obj) === 'number'
+})
 }
