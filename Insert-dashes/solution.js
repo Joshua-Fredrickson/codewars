@@ -14,4 +14,3 @@ function insertDash(num) {
         }
       return newstring;
     };
-
